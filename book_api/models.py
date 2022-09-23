@@ -7,6 +7,5 @@ class Book(models.Model):
     date_published = models.DateField()
     quantity = models.IntegerField()
 
-
     def __str__(self):
         return self.title
